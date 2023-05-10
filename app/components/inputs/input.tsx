@@ -71,7 +71,8 @@ const input: React.FC<InputProps> = ({
             sm:text-sm
             sm:leading-6
             transition
-            duration-300`,
+            duration-300
+          `,
             errors[id] && "focus:ring-rose-500",
             disabled && "opacity-50 cursor-default",
           )}
