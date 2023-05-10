@@ -35,7 +35,6 @@ const AuthSocialButton: React.FC<AuthSocialButtonProps> = ({
       "
     >
       <Icon />
-      
     </button>
   )
 }
