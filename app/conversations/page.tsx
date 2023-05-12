@@ -15,9 +15,9 @@ const Home = () => {
   return (
     <div
       className={clsx(`
-        "lg:pl-80 h-full lg:block"
+        lg:pl-80 h-full lg:block
       `,
-        !isOpen ? "block" : "hidden"
+        isOpen ? "block" : "hidden"
       )}
     >
       <EmptyState />
