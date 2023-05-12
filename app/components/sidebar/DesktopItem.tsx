@@ -34,7 +34,7 @@ const DesktopItem: React.FC<DesktopItemProps> = ({
           group
           flex
           gap-x-3
-          rounded:md
+          rounded-md
           p-3
           text-sm
           leading-6
