@@ -1,7 +1,16 @@
+import { getServerSession } from "next-auth";
 import Image from "next/image"
 import AuthForm from "./components/AuthForm"
+import { redirect } from 'next/navigation';
 
-export default function Home() {
+export default async function Home(context: any) {
+
+  const session = await getServerSession();
+
+  if ( session ) {
+    return redirect("/users")
+  }
+
   return (
     <div
       className="
