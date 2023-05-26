@@ -2,7 +2,7 @@
 
 import axios from "axios"
 import Button from '@/app/components/Button';
-import Input from '@/app/components/inputs/input';
+import Input from '@/app/components/inputs/Input';
 import AuthSpinner from '@/app/components/spinners/AuthSpinner';
 
 import { BsGithub, BsGoogle } from "react-icons/bs"
